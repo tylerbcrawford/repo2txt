@@ -10,6 +10,28 @@
 - **Customizable Ignoring Mechanism**: Provides options to ignore specific file types, individual files, and directories, allowing for a tailored documentation process.
 - **Command-Line Flexibility**: Various command-line arguments are available to customize the script's output according to the user's needs.
 
+## Coming Soon: GUI Interface
+A graphical user interface is currently in development, which will add the following features:
+
+### New Features
+- **User-Friendly Interface**: Easy-to-use GUI for selecting repositories and configuring output
+- **Token Counter**: Real-time display of token counts for:
+  * Directory structure
+  * File contents
+  * Total repository size
+- **Clipboard Integration**: One-click copying of repository content
+- **Visual Progress**: Real-time progress indication for large repositories
+
+### Enhanced Functionality
+- File/directory selection through visual interface
+- Output format selection with preview
+- Improved filtering options
+- Status and feedback indicators
+
+The GUI implementation plan and technical details can be found in the `cline_docs` directory:
+- `gui_implementation_plan.md`: Detailed implementation plan
+- `gui_implementation_review.md`: Technical considerations and improvements
+
 ## Suggested Installation
 For ease of use, `repo2txt` can be installed via pip:
 
@@ -21,6 +43,7 @@ Alternatively, you can directly run the `repo2txt.py` script. Ensure to install 
 
 ## Usage
 
+### Command Line Interface
 Run the script from the command line by specifying the path to the repository and the desired output file name. For example:
 
 ```bash
@@ -56,3 +79,5 @@ By default, if no path is specified, the script operates in the current director
 ## Contributing
 Contributions to enhance `repo2txt` are always welcome. Feel free to fork the repository, make your improvements, and submit a pull request.
 
+### Current Development Focus
+We are actively working on implementing the GUI interface and new features. If you'd like to contribute, check the `cline_docs` directory for detailed implementation plans and technical documentation.
